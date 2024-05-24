@@ -1,0 +1,40 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #f4839c;
+}
+
+.container {
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.qr-reader {
+    width: 300px;
+    height: 300px;
+    margin: auto;
+}
+
+.result-text {
+    margin-top: 20px;
+    color: #333;
+}
+
+.action-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
